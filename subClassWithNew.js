@@ -13,7 +13,7 @@ userCreator.prototype.sayName = function () {
 
 const user1 = new userCreator('Tim', 5)
 
-user1.sayName()
+// user1.sayName()
 
 function paidUserCreator(name, score, accountBalance) {
   userCreator.call(this, name, score)
@@ -34,7 +34,7 @@ paidUserCreator.prototype.increaseBalance = function () {
 }
 
 const paidUser1 = new paidUserCreator('David', 5, 50)
-paidUser1.increaseBalance()
-paidUser1.sayName()
+// paidUser1.increaseBalance()
+// paidUser1.sayName()
 
 console.log(paidUser1)

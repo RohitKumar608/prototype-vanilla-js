@@ -34,6 +34,6 @@ Object.setPrototypeOf(paidUserFunctions, userFunctions)
 const publicUser = userCreator('Manish', 25)
 const paidUser1 = paidUser('Rohit', 25, 50)
 
-console.log(publicUser)
+// console.log(publicUser)
 
 console.log(paidUser1)
